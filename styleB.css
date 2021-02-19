@@ -1,0 +1,314 @@
+body{
+    background-color:aliceblue;
+    padding: 0px;
+    margin: 0px;
+    font: 15px/1.5 Arial,Helvetica,sans--serif;
+}
+
+/*general*/
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding-top: ;
+}
+
+
+
+header{
+    background-color: slategray;
+    color: #ffffff;
+    padding: 30px;
+    border-bottom: orangered 3px solid;
+    min-height: 70px;
+    width:100%;
+    }
+
+ 
+    header a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+        
+    }
+    header ul{
+        margin:0;
+     
+    }
+    header li{
+        float:left;
+        display:inline;
+        padding: 0 10px 0 10px;
+    }
+
+    header #branding{
+        float: left;
+    }
+
+    header #branding h1{
+        margin:0px;
+    }
+
+    header nav{
+        float: right;
+        margin-top:10px;
+    }
+
+    header .highlight, header .current a{
+        color: rgb(228, 128, 91);
+        font-weight: bold;
+    }
+
+    header a:hover{
+        color: peachpuff;
+        font-weight:bold;
+    }
+
+    /*showcase*/
+    section{
+        margin: auto;
+    }
+
+    #showcase{
+        min-height: 400px;
+        background:url("../blixxy/img/fin.jfif") no-repeat;
+        background-size: cover;
+        text-align: center; 
+        color:#ffffff;
+        padding: 15px;
+        margin: auto;
+     
+    }
+
+
+    #showcase h1{
+        font-size: 80px;
+    }
+    
+    #showcase p{
+        font-size: 20px;
+    }
+
+    /*newsletter*/
+    #newsletter{
+        padding: 15px;
+        background-color: rgb(78, 99, 117);
+        color: #ffffff;
+    }
+
+    #newsletter h1{
+        float: left;
+    }
+
+    #newsletter form{
+        float: right;
+        margin-top: 20px;
+        : orangered;
+    }
+
+    #newsletter input{
+        padding:10px;
+    }
+
+    .button-1{
+        height: 38px;
+        background: orangered;
+        color: #ffffff;
+        border:0;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+  #boxes{
+      margin-top: 20px;
+  }
+
+  #boxes .box{
+      float: left;
+      width: 30%;
+      padding:10px;
+      text-align:center;
+  }
+
+  #boxes .box img{
+      width: 90px;
+  }
+
+
+  /*sidebar*/
+  aside#sidebar{
+      float: right;
+      width: 35%;
+      margin-top: 70px;
+      text-align: justify;
+      margin-right: 40px;
+      background-color: slategray;
+      color: #ffffff;
+      padding: 10px;
+      padding-bottom: 1%;
+ 
+  }
+
+  article#about{
+      float: left;
+      width: 40%;
+      margin: 10px;
+      margin-top: 70px;
+      margin-left: 50px;
+      text-align: justify;
+
+  }
+
+  /*Services*/
+  
+  article#main-col{
+      float: left;
+      width: 50%;
+      margin: 10px;
+      margin-left: 90px;
+      text-align: justify;
+
+  }
+
+ul.services{
+    background-color:lightslategray;
+    color: #ffffff;
+   list-style-type: none;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-top:5px;
+    padding-top:5px;
+}
+  
+  /*footer*/
+
+  footer.footer2{
+    padding:20px;
+    margin-top: 1%;
+    background: orangered;
+    text-align: center;
+    color: #ffffff
+  }
+
+  footer.footer1{
+    padding:20px;
+    margin-top: 35%;
+    background: orangered;
+    text-align: center;
+    color: #ffffff
+  }
+
+  footer{
+      padding:20px;
+      margin-top: 50%;
+      background: orangered;
+      text-align: center;
+      color: #ffffff;
+      width:100%;
+  }
+  
+  /*media queries*/
+  @media (max-width:768px){
+   header #branding,
+   header nav,
+   #newsletter form,
+    #newsletter h1,
+    #newsletter,
+    #boxes.box,
+    article#about,
+   header nav li{
+       
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+
+
+header{
+    padding-bottom: 20px;
+}
+
+#newsletter{
+    text-align: center;
+}
+#newsletter form{
+
+}
+ 
+.about1{
+text-align: center;
+}
+
+article#about{
+    margin-top: 10px;
+    text-align: justify;
+    margin-left:15px ;
+    width: 90%;
+    padding-right: -20px;
+}
+
+aside#sidebar{
+    width: 100%;
+    margin-top:25px;
+    margin:15px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.qualify{
+    text-align: center;
+    margin: 1px;
+    margin-left: -15px;
+}
+
+.qualification{
+    margin-left: 20px;
+    text-align: justify;
+    margin: 40px;
+}
+
+.excellent{
+    margin-left: 20px;
+    text-align: justify;
+    margin: 40px; 
+}
+
+footer{
+    margin-top: 265%;
+    padding:20px;
+ 
+}
+
+footer.footer2{
+    margin-top: 10%;
+    }
+
+    footer.footer1{
+margin-top: 75%;
+}
+
+footer p{
+    color:lawngreen;
+    margin-top:-5px;
+}
+
+ul.services{
+    width: 300px;
+
+}
+
+article h1{
+    text-align: center;
+}
+
+  
+article#main-col{
+    float: left;
+    width: 50%;
+    margin: 10px;
+    margin-left: 50px;
+    text-align: justify;
+
+}
